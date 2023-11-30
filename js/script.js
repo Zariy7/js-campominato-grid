@@ -41,7 +41,7 @@ function gridGen(){
             newCol.addEventListener('click', function(){
                 newCol.classList.toggle("clicked-col");
                 newCol.classList.toggle("custom-col");
-                console.log(z);
+                console.log(newCol.textContent);
             })
         }
     }
