@@ -9,8 +9,8 @@
 .custom-col{
     border: 1px solid black;
     background: rgb(109, 109, 226);
-    width: 100px;
-    height: 100px;
+    width: calc(100vh / 10 - 10px);
+    height: calc(100vh / 10 - 10px);
 }
 
 /* HAS TO BE AFTER CUSTOM-COL OTHERWISE JS TOGGLE WON'T WORK */
