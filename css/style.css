@@ -5,3 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.custom-col{
+    border: 1px solid black;
+    background: rgb(109, 109, 226);
+    width: 100px;
+    height: 100px;
+}
