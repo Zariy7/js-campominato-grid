@@ -12,3 +12,9 @@
     width: 100px;
     height: 100px;
 }
+
+/* HAS TO BE AFTER CUSTOM-COL OTHERWISE JS TOGGLE WON'T WORK */
+.clicked-col{
+    background: rgb(192, 69, 90);
+    color: white;
+}

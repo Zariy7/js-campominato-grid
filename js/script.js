@@ -37,6 +37,10 @@ function gridGen(){
             newCol.textContent = (z+1);
             z++;
             newRow.appendChild(newCol);
+        
+            newCol.addEventListener('click', function(){
+                newCol.classList.toggle("clicked-col");
+            })
         }
     }
 }
