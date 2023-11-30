@@ -9,12 +9,15 @@
 .custom-col{
     border: 1px solid black;
     background: rgb(109, 109, 226);
+    color: black;
     width: calc(100vh / 10 - 10px);
     height: calc(100vh / 10 - 10px);
 }
-
-/* HAS TO BE AFTER CUSTOM-COL OTHERWISE JS TOGGLE WON'T WORK */
+    
 .clicked-col{
+    border: 1px solid black;
     background: rgb(192, 69, 90);
     color: white;
+    width: calc(100vh / 10 - 10px);
+    height: calc(100vh / 10 - 10px);
 }
