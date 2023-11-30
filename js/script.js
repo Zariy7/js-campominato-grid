@@ -6,6 +6,7 @@ function gridGen(){
     let diffString = document.getElementById('Difficulty').value;
     let diffValue;
 
+    //SECOND BONUS
     switch (diffString){
         case 'Easy':
             diffValue = 10;
@@ -38,6 +39,7 @@ function gridGen(){
             z++;
             newRow.appendChild(newCol);
         
+            //FIRST BONUS
             newCol.addEventListener('click', function(){
                 newCol.classList.toggle("clicked-col");
                 newCol.classList.toggle("custom-col");
